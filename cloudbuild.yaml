@@ -1,7 +1,7 @@
 steps:
   - name: node
     entrypoint: npm
-    dir: "todo-list/"
+    dir: "Demo-App/"
     args: ["run", "deploy"]
 
   - name: "gcr.io/cloud-builders/gcloud"
